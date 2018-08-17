@@ -1,0 +1,19 @@
+body{
+  background: palevioletred;
+  display: flex;
+  .parent{
+    height: 100px;
+    width: 100%;
+    background: gray;
+    text-align: center;
+    .son{
+      height: 30px;
+      width: 100%;
+      background: cornflowerblue;
+    }
+    input{
+      width: 50px;
+      height: 30px;
+    }
+  }
+}
